@@ -20,7 +20,7 @@ public class adj_list_graph{
 	     System.out.println("Enter the number of vertices and edges: ");
 	     int v = sc.nextInt();
 	     int e = sc.nextInt();
-	     p1 g = new p1(v);
+	     adj_list_graph g = new adj_list_graph(v);
 	     System.out.println("Enter the edges in (u v) format: ");
 	     for(int i=0;i<e;i++){
 	     	int s = sc.nextInt();
